@@ -5,7 +5,7 @@ BEGIN {
   $Task::Yeb::AUTHORITY = 'cpan:GETTY';
 }
 # ABSTRACT: All the approved Yeb plugins in one Task
-$Task::Yeb::VERSION = '20140322.000';
+$Task::Yeb::VERSION = '20140324.000';
 
 1;
 
@@ -21,7 +21,7 @@ Task::Yeb - All the approved Yeb plugins in one Task
 
 =head1 VERSION
 
-version 20140322.000
+version 20140324.000
 
 =head1 TASK CONTENTS
 
@@ -37,17 +37,27 @@ You should have at least 5.10.1
 
 =head2 Base plugins
 
-=head3 L<Yeb::Plugin::Session> 0.001
+=head3 L<Yeb::Plugin::Session> 0.100
 
 Session handling via L<Plack::Middleware::Session>
 
-=head3 L<Yeb::Plugin::JSON> 0.001
+=head3 L<Yeb::Plugin::Locale::Simple> 0.001
+
+Localization via L<Locale::Simple>
+
+=head2 Views
+
+=head3 L<Yeb::Plugin::Xslate> 0.100
+
+Templates with L<Text::Xslate>
+
+=head3 L<Yeb::Plugin::JSON> 0.101
 
 JSON responses using L<JSON::MaybeXS>
 
-=head3 L<Yeb::Plugin::Xslate> 0.001
+=head3 L<Yeb::Plugin::GeoJSON> 0.002
 
-L<Text::Xslate> plugin
+Generating GeoJSON output via L<Geo::JSON::Simple> functions
 
 =head1 AUTHOR
 

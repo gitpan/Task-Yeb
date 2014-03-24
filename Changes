@@ -1,10 +1,16 @@
 ==================================================
-Changes from 1740-06-07 00:00:00 +0000 to present.
+Changes from 1740-06-09 00:00:00 +0000 to present.
 ==================================================
 
 -------------------------------------------------
-version 20140322.000 at 2014-03-22 22:55:20 +0000
+version 20140324.000 at 2014-03-24 23:46:50 +0000
 -------------------------------------------------
+
+  Change: 59fc766e14a3624a75422df20f90130eb5f98e44
+  Author: Torsten Raudssus <torsten@raudss.us>
+  Date : 2014-03-25 00:46:44 +0000
+
+    More groups, more plugins 
 
   Change: 5fb223bbbca50c40a00e863e6530e962a1a2ac91
   Author: Torsten Raudssus <torsten@raudss.us>
