@@ -1,10 +1,16 @@
 ==================================================
-Changes from 1740-06-09 00:00:00 +0000 to present.
+Changes from 1740-09-20 00:00:00 +0000 to present.
 ==================================================
 
 -------------------------------------------------
-version 20140324.000 at 2014-03-24 23:46:50 +0000
+version 20140705.000 at 2014-07-05 20:56:43 +0000
 -------------------------------------------------
+
+  Change: 08d2dcf55b11e7f2bc623805aeb374caa42b598e
+  Author: Torsten Raudssus <torsten@raudss.us>
+  Date : 2014-07-05 22:56:30 +0000
+
+    Added DBIC plugin and updated versions 
 
   Change: 59fc766e14a3624a75422df20f90130eb5f98e44
   Author: Torsten Raudssus <torsten@raudss.us>
